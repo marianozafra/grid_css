@@ -22,8 +22,11 @@
             margin: 30px auto;
             background-color: #eee;
             display: grid;
-            grid-template-rows: 150px 150px;
-            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: 50% 1fr 1fr;/*fr significa fractional unit. Es una fracción del espacio total disponible*/
+            
+            /*grid-template-columns: repeat(3, 1fr)*/
+            /*grid-template-columns: 1fr 2fr 1fr;*/
 
             /*row-gap: 30px;
             column-gap: 30px;*/
